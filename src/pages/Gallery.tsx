@@ -55,22 +55,7 @@ const Gallery = () => {
       src: "/lovable-uploads/a4559168-1486-43a3-8ae1-167e978fe816.png",
       alt: "Exide Authorized Dealer Certificate",
       category: "Shop",
-    },
-    {
-      src: "/placeholder.svg",
-      alt: "Inverter Installation",
-      category: "Installations",
-    },
-    {
-      src: "/placeholder.svg",
-      alt: "UPS System Setup",
-      category: "Installations",
-    },
-    {
-      src: "/placeholder.svg",
-      alt: "Alternator Repair Service",
-      category: "Services",
-    },
+    }
   ];
   
   const filteredImages = activeCategory === "All" 
